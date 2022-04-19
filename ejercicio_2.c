@@ -12,7 +12,7 @@ int main(){
 
 	for (int i = 0; i < TAMA; i++)
 	{	
-		printf("Digite el nombre de la persona %d: ",i+1);
+		printf("Indique el nombre de la persona %d: ",i+1);
 		gets(buff);
 		V[i] = (char *) malloc((strlen(buff)+1)*sizeof(char));
 		strcpy(V[i],buff);
